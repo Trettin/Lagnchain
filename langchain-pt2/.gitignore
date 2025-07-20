@@ -1,0 +1,7 @@
+#env
+*.env
+
+.vscode
+
+langchain
+venv-langchain2
