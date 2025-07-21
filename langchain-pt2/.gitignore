@@ -5,3 +5,4 @@
 
 langchain
 venv-langchain2
+__pycache__

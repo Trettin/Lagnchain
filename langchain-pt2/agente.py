@@ -7,9 +7,12 @@ from dotenv import load_dotenv
 from langchain import hub
 from estudante import DadosDeEstudante, PerfilAcademico
 from universidade import DadosDeUniversidade, TodasUniversidades
+from langsmith import traceable
 
 load_dotenv()
 
+
+@traceable
 class AgenteOpenAIFunctions:
     def __init__(self) -> None:
         llm = ChatOpenAI(model="gpt-4o", api_key=os.getenv("OPENAI_API_KEY"))

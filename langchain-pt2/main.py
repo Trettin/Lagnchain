@@ -14,6 +14,7 @@ pergunta = "Quais os dados da USP?"
 pergunta = "Quais os dados da UNIcaMp?"
 pergunta = "Quais os países das universidades que Ana tem interesse?"
 pergunta = "Quais as universidades presentes no brasil?"
+pergunta = "Quais as melhores universidade para Ana e Marcos no exterior?"
 
 
 agente = AgenteOpenAIFunctions()
